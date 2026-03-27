@@ -6,19 +6,19 @@ v=np.array([1,4,6,8])
 
 # Addition of u and v
 add_result=u+v
-print(add_result)
+print(f"Addition u+v = {add_result}")
 
 # Subtraction of u-v
 sub_result=u-v
-print(sub_result)
+print(f"Subtraction u-v = {sub_result}")
 
 # Dot product of u and v
 dot_result=np.dot(u,v)
-print(dot_result)
+print(f"Dot product u-v = {dot_result}")
 
 # Euclidean distance between u and v
-Euc_dist=np.sqrt(np.sum(u-v)**2)
-print(Euc_dist)
+euc_dist = np.sqrt(np.sum((u-v)**2))
+print(f"Euclidean distance u and v = {euc_dist}")
 
 #-----MATRIX OPERATIONS-----
 
@@ -78,9 +78,8 @@ else:
 
 #Checking which eigen value is larger and what does it mean?
 print(f"Eigenvalues are {eigenvalue}")
-print(f"The eigen values are {eigenvalue} hence 5. is the larger value,it means that the 5 contain more information than 2 and the direction is stretched by 5 in the positive x direction.")
-
-
+max_idx = np.argmax(eigenvalue)
+print(f"Largest eigenvalue: {eigenvalue[max_idx]:.2f} — carries most information")
 # Dataset of 5 students, 3 features each:
 data = np.array([[85, 92, 78],
         [90, 88, 95],
@@ -91,16 +90,13 @@ data = np.array([[85, 92, 78],
 print(data.shape)
 
 # Accessing 3rd student second feature
-print(data[(3),(2)])
+print(data[2][1])
 
 # All student first features
 print(data[:,1])
 
 # Finding out mean of each features to analyze the mean of all featurs 
-row_0=np.mean(data[0])
-row_1=np.mean(data[1])
-row_2=np.mean(data[2])
-row_3=np.mean(data[3])
-row_4=np.mean(data[4])
-
-print(f"The mean of features of\nRow 0 = {row_0}\nRow 1 = {row_1}\nRow 2 = {row_2}\nRow 3 = {row_3.round(2)}\nRow 4 = {row_4.round(2)}")
+# Correct
+feature_means = np.mean(data, axis=0)  # axis=0 means collapse rows, keep columns
+# mean of each column = mean of each feature
+print(f"The mean of  each features is {feature_means}")
