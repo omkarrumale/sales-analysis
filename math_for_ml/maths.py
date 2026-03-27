@@ -36,21 +36,21 @@ print(B.shape)
 
 # Matrix multiplication of A and B and their shape
 multiply= A @ B
-print(multiply)
-print(multiply.shape)
+print(f"A @ B result = {multiply}")
+print(f"Shape of A @ B = {multiply.shape}")
 
 # Transpose of A and its shape
 transpose=(A.T)
-print(transpose)
+print(f"A.T = {transpose}")
 print(transpose.shape)
 
 # Finding determinant of A
 det=np.linalg.det(A)
-print(det)
+print(f"Determinant of A = {det}")
 
 # Taking inverse of A
 A_inv=np.linalg.inv(A)
-print(A_inv)
+print(f"Inverse of A = {A_inv}")
 
 # Verifying A @ A_inv = I (identity matrix)-using .round to round off the decimals
 identity= A @ A_inv
