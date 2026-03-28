@@ -25,7 +25,7 @@ and discount behavior.
 ![Monthly Sales Trend](assets/monthly_sales_trend.png)
 
 ### Category vs Region Revenue
-![Category vs Region](assets/category_vs_sales_revenue.png)
+![Category vs Region](assets/category_vs_region_revenue.png)
 
 ### Discount vs Sales Amount
 ![Discount vs Sales](assets/discount_vs_sales.png)
