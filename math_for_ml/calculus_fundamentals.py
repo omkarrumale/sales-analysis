@@ -1,3 +1,9 @@
+"""
+Calculus for ML — Numerical Implementations
+Topics: Derivatives, Gradient Descent, Partial Derivatives, Chain Rule
+Purpose: Understanding mathematical foundations through code
+"""
+
 # Taking the derivatives of 2,3,4
 def f_task1(x):
     return x**2
