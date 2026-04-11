@@ -6,11 +6,11 @@ production-ready AI systems. Targeting AI engineering roles by 2027.
 ## Roadmap
 - ✅ P0: Data Analysis — Sales Analysis Project (Python, Pandas, Seaborn)
 - ✅ P1: Math for ML — Linear Algebra & Calculus (NumPy implementations + notes)
-- ✅ P1: Probability & Statistics 
-- ⏳ P2: Classical ML — Sklearn (In progress)
-- ⏳ P3: Deep Learning — PyTorch (coming soon)
-- ⏳ P4: NLP & LLMs (coming soon)
-- ⏳ P5: MLOps & Deployment (coming soon)
+- ✅ P2: Probability & Statistics 
+- ⏳ P3: Classical ML — Sklearn (In progress)
+- ⏳ P4: Deep Learning — PyTorch (coming soon)
+- ⏳ P5: NLP & LLMs (coming soon)
+- ⏳ P6: MLOps & Deployment (coming soon)
 
 ## Repository Structure
 ai-engineering-portfolio/
