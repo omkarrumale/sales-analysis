@@ -1,6 +1,7 @@
 # AI Engineering Portfolio
 
-My structured journey toward becoming an AI Engineer.
+2nd-year CS student. Building from mathematical foundations to 
+production-ready AI systems. Targeting AI engineering roles by 2027.
 
 ## Roadmap
 - ✅ P0: Data Analysis — Sales Analysis Project (Python, Pandas, Seaborn)
