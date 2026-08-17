@@ -1,6 +1,6 @@
 # AI Engineering Portfolio
 
-2nd-year CS student. Building from mathematical foundations to 
+3rd-year CS student. Building from mathematical foundations to 
 production-ready AI systems. Targeting AI engineering roles by 2027.
 
 ## Roadmap
